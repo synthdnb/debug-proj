@@ -1,0 +1,11 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  host: "localhost"
+  database: 
+  username: 
+  password: 
+
+development:
+  <<: *default
+
